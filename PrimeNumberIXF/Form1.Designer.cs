@@ -35,21 +35,20 @@
             // CheckButton
             // 
             this.CheckButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.CheckButton.Location = new System.Drawing.Point(312, 202);
+            this.CheckButton.Location = new System.Drawing.Point(306, 263);
             this.CheckButton.Name = "CheckButton";
-            this.CheckButton.Size = new System.Drawing.Size(133, 52);
-            this.CheckButton.TabIndex = 1;
+            this.CheckButton.Size = new System.Drawing.Size(139, 41);
+            this.CheckButton.TabIndex = 0;
             this.CheckButton.Text = "Check";
             this.CheckButton.UseVisualStyleBackColor = false;
             this.CheckButton.Click += new System.EventHandler(this.CheckButton_Click);
             // 
             // PrimeNumberTextBox
             // 
-            this.PrimeNumberTextBox.Location = new System.Drawing.Point(301, 109);
+            this.PrimeNumberTextBox.Location = new System.Drawing.Point(297, 173);
             this.PrimeNumberTextBox.Name = "PrimeNumberTextBox";
-            this.PrimeNumberTextBox.Size = new System.Drawing.Size(159, 20);
-            this.PrimeNumberTextBox.TabIndex = 2;
-            this.PrimeNumberTextBox.TextChanged += new System.EventHandler(this.PrimeNumberTextBox_TextChanged);
+            this.PrimeNumberTextBox.Size = new System.Drawing.Size(160, 20);
+            this.PrimeNumberTextBox.TabIndex = 1;
             // 
             // Form1
             // 
