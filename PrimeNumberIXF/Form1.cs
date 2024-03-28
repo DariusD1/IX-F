@@ -30,10 +30,15 @@ namespace PrimeNumberIXF
                     this.BackColor = Color.Green;
                 } else {
                     this.BackColor = Color.Red;
+                    
                 }
 
             } else {
+
+                this.BackColor = Color.Yellow;
+
                 MessageBox.Show("S-a introdus un text");
+                PrimeNumberTextBox.Clear();
             }
 
         }
